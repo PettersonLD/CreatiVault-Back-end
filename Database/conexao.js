@@ -4,7 +4,7 @@ async function bancoDados() {
   return await mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "",
+    password: "etecembu@123",
     port: 3306,
     database: "creativault"
   });
